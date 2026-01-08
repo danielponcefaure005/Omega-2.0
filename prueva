@@ -1,0 +1,12 @@
+% Hechos de ejemplo:
+% progenitor(padre1, hijo1).
+% progenitor(padre1, hijo2).
+% progenitor(madre1, hijo1).
+% progenitor(madre1, hijo2).
+% hombre(hijo1).
+% mujer(hijo2).
+
+es_hermano(X, Y) :- 
+    progenitor(Padre, X), 
+    progenitor(Padre, Y), 
+    X = Y.  % X e Y deben ser diferentes.
