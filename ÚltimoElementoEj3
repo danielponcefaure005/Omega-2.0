@@ -1,0 +1,4 @@
+% predicado para determinación del último elemento...
+ultimo_elemento([Ultimo], Ultimo).  
+ultimo_elemento([_|Cola], Ultimo) :- 
+    ultimo_elemento(Cola, Ultimo). 
