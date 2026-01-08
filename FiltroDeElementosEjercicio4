@@ -1,0 +1,7 @@
+filtrar_mayores([], _, []).  
+
+filtrar_mayores([Cabeza|Cola], N, [Cabeza|ListaFiltrada]) :- Cabeza > N,    
+               
+ ListaFiltrada) :- Cabeza =< N,         
+
+    filtrar_mayores(Cola, N, ListaFiltrada).  
