@@ -1,0 +1,5 @@
+% Definir predicado para identificar pari..
+
+es_hermano(X, Y) :- progenitor(Padre, X), 
+
+    progenitor(Padre, Y),   X = Y.  
