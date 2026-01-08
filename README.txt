@@ -1,6 +1,4 @@
-%definicion de los predicados.
-% ejercicio1.
-invertir([], []).  
-invertir([Cabeza|Cola], ListaInvertida) :-
-    invertir(Cola, ColaInvertida),  
-    append(ColaInvertida, [Cabeza], ListaInvertida). 
+Objetivos: Definir predicados en prolog para aplicaciones sencillas y evitar males mayores de paso...
+
+video de las consultas:
+
